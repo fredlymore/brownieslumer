@@ -53,12 +53,11 @@
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">Tentang</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#testimonials">Testimoni</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
-      <a class="btn-book-a-table" href="#book-a-table">Pesan Sekarang</a>
+      <!-- <a class="btn-book-a-table" href="#book-a-table">Pesan Sekarang</a> -->
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
@@ -77,7 +76,7 @@
             <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
           </div>
         </div>
-        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+        <div class="col-lg-6 order-1 order-lg-2 text-center text-lg-start">
           <img src="<?php echo base_url('assets'); ?>/img/logo.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="200">
         </div>
       </div>
@@ -99,10 +98,10 @@
     <div class="col-lg-3 col-md-6 d-flex">
       <i class="bi bi-geo-alt icon"></i>
       <div>
-        <h4>Address</h4>
+        <h4>Alamat</h4>
         <p>
-          A108 Adam Street <br>
-          New York, NY 535022 - US<br>
+        Penggilingan, Perumahan taman buaran indah IV LA1,<br>
+        Jl.kebun anggrek - Jakarta Timur<br>
         </p>
       </div>
 
@@ -111,10 +110,10 @@
     <div class="col-lg-3 col-md-6 footer-links d-flex">
       <i class="bi bi-telephone icon"></i>
       <div>
-        <h4>Reservations</h4>
+        <h4>Hubungi</h4>
         <p>
-          <strong>Phone:</strong> +1 5589 55488 55<br>
-          <strong>Email:</strong> info@example.com<br>
+          <strong>WhatsApp:</strong> 081918022902<br>
+          <strong>Email:</strong> rowniesLumer@gmail.com<br>
         </p>
       </div>
     </div>
@@ -145,7 +144,7 @@
 
 <div class="container">
   <div class="copyright">
-    &copy; Copyright <strong><span>Yummy</span></strong>. All Rights Reserved
+    <!-- &copy; Copyright <strong><span>Yummy</span></strong>. All Rights Reserved -->
   </div>
   <div class="credits">
     <!-- All the links in the footer should remain intact. -->
