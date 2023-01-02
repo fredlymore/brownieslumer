@@ -13,7 +13,7 @@
       <div class="col-lg-7 position-relative about-img" style="background-image: url(<?php echo base_url('assets'); ?>/img/gallery/brownies-3.jpeg) ;" data-aos="fade-up" data-aos-delay="150">
         <div class="call-us position-absolute">
           <h4>Pesan Sekarang</h4>
-          <p>+1 5589 55488 55</p>
+          <p>081918022902</p>
         </div>
       </div>
       <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
