@@ -77,7 +77,7 @@
           <h2 data-aos="fade-up">Brownies Lumer<br>Rasanya Bikin Nagih!!</h2>
           <p data-aos="fade-up" data-aos-delay="100">brownies dengan lelehan cokelat di atasnya sangat sempurna, dijamin bikin kamu gak berhenti makan.</p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-          <a href="https://api.whatsapp.com/send?phone=6281918022902&amp;text=Halo%20Admin,%20saya%20mau%20pesan%20BrowniesLumer" class="float" target="_blank">
+          <a href="https://api.whatsapp.com/send?phone=6287787858529&amp;text=Halo%20Toko%20BrowniesLumer,%20saya%20mau%20Tanya%20BrowniesLumer?" class="float" target="_blank">
             <i class="bi bi-whatsapp btn btn-outline-success bt-lg">WhatsApp</i>
           </a>
             <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
