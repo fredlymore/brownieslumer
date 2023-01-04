@@ -45,7 +45,7 @@
 
 
 <!-- ======= Book A Table Section ======= -->
-<!-- <section id="book-a-table" class="book-a-table">
+<section id="book-a-table" class="book-a-table">
   <div class="container" data-aos="fade-up">
 
     <div class="section-header">
@@ -102,7 +102,7 @@
     </div>
 
   </div>
-</section> -->
+</section>
 <!-- End Book A Table Section -->
 
 <!-- ======= Gallery Section ======= -->
