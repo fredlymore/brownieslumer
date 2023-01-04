@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/us7gxzgi/public_html/
-    - /bin/cp main/home.php $DEPLOYPATH
+    - /bin/cp /view/main/home.php $DEPLOYPATH
     - /bin/cp -R /assets/images $DEPLOYPATH
