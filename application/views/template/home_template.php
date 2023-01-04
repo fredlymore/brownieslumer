@@ -5,13 +5,17 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>BrowniesLumer</title>
+  <title><?php echo $page_title; ?></title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <!-- fontawesome -->
+  <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" /> -->
+
   <!-- Favicons -->
-  <link href="<?php echo base_url('assets'); ?>/img/favicon.png" rel="icon">
+  <link href="<?php echo base_url('assets'); ?>/img/ico.png" rel="icon">
   <link href="<?php echo base_url('assets'); ?>/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?php echo base_url(); ?>assets/css/icons.css" rel="stylesheet" type="text/css">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,6 +58,7 @@
           <li><a href="#about">Tentang</a></li>
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="#onlineshop">Online Shop</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -72,7 +77,9 @@
           <h2 data-aos="fade-up">Brownies Lumer<br>Rasanya Bikin Nagih!!</h2>
           <p data-aos="fade-up" data-aos-delay="100">brownies dengan lelehan cokelat di atasnya sangat sempurna, dijamin bikin kamu gak berhenti makan.</p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#book-a-table" class="btn-book-a-table">Pesan Sekarang</a>
+          <a href="https://api.whatsapp.com/send?phone=6281918022902&amp;text=Halo%20Admin,%20saya%20mau%20pesan%20BrowniesLumer" class="float" target="_blank">
+            <i class="bi bi-whatsapp btn btn-outline-success bt-lg">WhatsApp</i>
+          </a>
             <!-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
           </div>
         </div>
@@ -169,10 +176,13 @@
 <script src="<?php echo base_url('assets'); ?>/vendor/purecounter/purecounter_vanilla.js"></script>
 <script src="<?php echo base_url('assets'); ?>/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="<?php echo base_url('assets'); ?>/vendor/php-email-form/validate.js"></script>
+<script src="<?php echo base_url('assets'); ?>/fontawesome/metadata/icons.json"></script>
 
 <!-- Template Main JS File -->
 <script src="<?php echo base_url('assets'); ?>/js/main.js"></script>
 
+<!-- font awesome -->
+<!-- <script src="https://kit.fontawesome.com/e6b2da2d8b.js" crossorigin="anonymous"></script> -->
 </body>
 
 </html>

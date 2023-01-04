@@ -50,38 +50,37 @@
 
     <div class="section-header">
       <h2>Pesan Brownies Lumer</h2>
-      <p>Pesanan Anda <span>Segera Kami Kirim</span>, Terima kasih</p>
+      <p><span>Pesanan Anda</span></p>
+      <p>Untuk pemesanan dengan jumlah banyak minimal dari 3 hari sebelum, <Span>Terima Kasih..</Span></p>
     </div>
 
     <div class="row g-0">
-
       <div class="col-lg-4 reservation-img" style="background-image: url(<?php echo base_url('assets') ?>/img/pesanan.jpeg);" data-aos="zoom-out" data-aos-delay="200"></div>
-
       <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
         <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
           <div class="row gy-4">
             <div class="col-lg-4 col-md-6">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Nama" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" required>
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6">
-              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="tel" class="form-control" name="hp" id="hp" placeholder="No.Tlp" data-rule="minlen:4" data-msg="Please enter your Phone" pattern="+62 - [0-9]{3} - [0-9]{4} - [0-9]{3}" value="" required>
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6">
-              <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="date" name="date" class="form-control" id="date" placeholder="Tanggal Pesanan" data-rule="minlen:4" data-msg="Please enter at least 4 chars"required>
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6">
-              <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="time" class="form-control" name="time" id="time" placeholder="Waktu Pesanan" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6">
-              <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+              <input type="number" class="form-control" name="jumlah" id="jumlah" placeholder="Jumlah Pesanan" data-rule="minlen:1" data-msg="Please enter at least 1 chars" required>
               <div class="validate"></div>
             </div>
           </div>
@@ -92,16 +91,20 @@
           <div class="mb-3">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
-            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your. Thank you!</div>
           </div>
-          <div class="text-center"><button type="submit">Book a Table</button></div>
+          <div class="text-center">
+            <button type="submit">Send Email </button>
+          </div>
         </form>
-      </div><!-- End Reservation Form -->
+      </div>
+      <!-- End Reservation Form -->
 
     </div>
 
   </div>
-</section><!-- End Book A Table Section -->
+</section>
+<!-- End Book A Table Section -->
 
 <!-- ======= Gallery Section ======= -->
 <section id="gallery" class="gallery section-bg">
@@ -146,7 +149,8 @@
           <i class="icon bi bi-map flex-shrink-0"></i>
           <div>
             <h3>Alamat</h3>
-            <p>Penggilingan, Perumahan taman buaran indah IV LA1, Jl.kebun anggrek - Jakarta Timur</p>
+            <p>Penggilingan, Perumahan taman buaran indah IV LA1, <br>
+            Jl.kebun anggrek - Jakarta Timur</p>
           </div>
         </div>
       </div><!-- End Info Item -->
@@ -164,6 +168,7 @@
       <div class="col-md-6">
         <div class="info-item  d-flex align-items-center">
           <i class="icon bi bi-telephone flex-shrink-0"></i>
+          
           <div>
             <h3>WhatsApp</h3>
             <p>081918022902</p>
@@ -185,7 +190,7 @@
 
     </div>
 
-    <form action="forms/contact.php" method="post" role="form" class="php-email-form p-3 p-md-4">
+    <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form p-3 p-md-4">
       <div class="row">
         <div class="col-xl-6 form-group">
           <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -206,7 +211,7 @@
         <div class="sent-message">Your message has been sent. Thank you!</div>
       </div>
       <div class="text-center"><button type="submit">Kirim Pesan</button></div>
-    </form>
+    </form> -->
     <!--End Contact Form -->
 
   </div>
@@ -223,9 +228,15 @@
     <div class="row gy-4">
       <div class="col-md-6">
         <div class="info-item d-flex align-items-center">
-          <img src="<?php echo base_url('assets'); ?>/img/tokped.png" alt="" class="img-fluid" href="#">
-          <img src="<?php echo base_url('assets'); ?>/img/shopee2.png" alt="" class="img-fluid" href="#">
+          <a href="https://www.tokopedia.com/brownieslumer_one" target="_blank">
+            <img src="<?php echo base_url('assets'); ?>/img/tokped.png" alt="" class="img-fluid">
+          </a>
         </div>
+      </div>
+      <div class="col-md-6">
+        <a href="https://shopee.co.id/brownieslumer_one" target="_blank">
+          <img src="<?php echo base_url('assets'); ?>/img/shopee2.png" alt="" class="img-fluid">
+        </a>
       </div>
     </div>
 

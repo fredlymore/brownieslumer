@@ -5,7 +5,7 @@ class template
     function __construct()
     {
         $this->ci =& get_instance();
-        $this->page_title = 'Halaman';
+        $this->page_title = 'BrowniesLumer';
         $this->navbar_menu = array();
         
     }
